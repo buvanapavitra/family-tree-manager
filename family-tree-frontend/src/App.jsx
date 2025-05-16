@@ -147,7 +147,7 @@ function App() {
         <Button
         
           sx={{
-            px: 5,
+            px: 10,
             py: 1.5,
             fontSize: "1rem",
             fontWeight: "bold",
@@ -179,7 +179,7 @@ function App() {
           sx={{
             mx: "auto",
             width: "100%",
-            maxWidth: "800px",
+            maxWidth: "900px",
             justifyContent: "center", // Horizontally center
             alignItems: "center",    
             gap: 2,
