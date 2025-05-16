@@ -217,7 +217,7 @@ function App() {
         member={deleteMemberData}
       />
 
-      {/* About Home  */}
+      {/* About  */}
       <Dialog open={aboutOpen} onClose={() => setAboutOpen(false)}>
         <DialogTitle>About</DialogTitle>
         <DialogContent>
