@@ -179,7 +179,7 @@ function App() {
           sx={{
             mx: "auto",
             width: "100%",
-            maxWidth: "1700px",
+            maxWidth: "1000px",
           
             
             gap: 2,
