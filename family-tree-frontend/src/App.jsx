@@ -143,8 +143,9 @@ function App() {
       <Toolbar />
 
       {/* Add Member Button */}
-      <Box display="flex" justifyContent="center" mt={6} mb={3}>
+      <Box display="flex" justifyContent="center"  mt={6} mb={6}>
         <Button
+        
           sx={{
             px: 4,
             py: 1.5,
@@ -166,9 +167,17 @@ function App() {
       </Box>
 
       {/* Main Content */}
-      <Container sx={{ display: "flex", justifyContent: "center", mb: 5 }}>
+      <Container maxWidth="lg"
+  sx={{
+    minHeight: "10vh",           // Full viewport height
+    display: "flex",
+    justifyContent: "center",     // Horizontally center
+    alignItems: "center",         // Vertically center
+    flexDirection: "column",      // Stack
+  }}>
         <Box
           sx={{
+            mx: "auto",
             width: "100%",
             maxWidth: "800px",
             backgroundColor: "rgba(255, 255, 255, 0.9)", // translucent white bg for readability

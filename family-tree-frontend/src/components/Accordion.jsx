@@ -34,8 +34,9 @@ const AccordionItem = ({ member, onEdit, onDelete }) => {
           display="flex"
           justifyContent="space-between"
           width="100%"
-          alignItems="right"
+          alignItems="center"
           sx={{
+             mx: "auto",
             padding: 1,
             backgroundColor: "rgba(255, 255, 255, 0.9)",
             borderRadius: 2,
