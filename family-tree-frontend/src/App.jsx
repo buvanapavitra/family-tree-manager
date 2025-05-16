@@ -179,7 +179,7 @@ function App() {
           sx={{
             mx: "auto",
             width: "100%",
-            maxWidth: "1000px",
+            maxWidth: "800px",
                    
             gap: 2,
             backgroundColor: "rgba(255, 255, 255, 0.9)", // translucent white bg for readability
