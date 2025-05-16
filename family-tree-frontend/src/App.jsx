@@ -180,7 +180,8 @@ function App() {
             mx: "auto",
             width: "100%",
             maxWidth: "800px",
-                   
+            justifyContent: "center", // Horizontally center
+            alignItems: "center",    
             gap: 2,
             backgroundColor: "rgba(255, 255, 255, 0.9)", // translucent white bg for readability
             borderRadius: 2,
